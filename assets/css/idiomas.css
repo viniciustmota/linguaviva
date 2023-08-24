@@ -1,0 +1,108 @@
+.idiomas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 145px;
+  }
+
+  .idiomas__card {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    width: 480px;
+    height: 720px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    padding: 32px 0px;
+    justify-content: center;
+    align-items: flex-end;
+    border: 3px solid var(--cor-principal);
+    transition: border-color 0.3s, filter 0.3s;
+    background-blend-mode: overlay;
+    background-position: center;
+  }
+  
+  .idiomas__card > div {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .idiomas__card:hover {
+    border-color: var(--bg-btn);
+    cursor: pointer;
+  }
+  
+  .idiomas__card:hover::before {
+    content: ''; /* Crie um pseudo-elemento antes da div */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; /* Coloque-o atrás da div */
+    filter: brightness(44%) grayscale(100%); /* Aplicar filtro somente ao fundo */
+  }
+
+  .eua:hover::before{
+    background-image: url("../img/eua.svg");
+  }
+
+  .espanha:hover::before{
+    background-image: url("../img/espanha.svg");
+  }
+  .italia:hover::before{
+    background-image: url("../img/italia.svg");
+  }
+  .alemanha:hover::before{
+    background-image: url("../img/alemanha.svg");
+  }
+  
+  .idiomas__card:hover p {
+    color: var(--branco-descricao);
+  }
+  
+  .idiomas__card div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 480px;
+    height: 720px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+   .eua {
+    background-image: url("../img/eua.svg");
+  } 
+  
+  .espanha {
+    background-image: url("../img/espanha.svg");
+  }
+  
+  .italia {
+    background-image: url("../img/italia.svg");
+  }
+  
+  .alemanha {
+    background-image: url("../img/alemanha.svg");
+  }
+  
+  .idiomas__card-descricao {
+    color: #0c0c14;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
