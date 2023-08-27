@@ -1,0 +1,25 @@
+.dispositivos {
+  padding: 0 16px;
+  margin-bottom: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nome-dispositivo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icone-dispositivos {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 428px) {
+  .icone-dispositivos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

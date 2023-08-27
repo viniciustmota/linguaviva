@@ -22,7 +22,6 @@
             <img class="container__img" src="./assets/img/Logo.png" alt="Combo alura + aluralíngua">
             <a href="./cadastro.php" class="container__btn">Quero aprender</a>
             <a href="#" class="container__btn btn-sem-bg">Login</a>
-            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
         </div>
     </section>
 
@@ -34,7 +33,7 @@
         </div>
     </section>
 
-    <section class="container secundario">
+    <section class="container secundario terceiro">
         <div class="container__descricao">
             <p class="descricao__texto">Na plataforma LínguaViva, você tem a oportunidade de dominar inglês, espanhol, italiano ou alemão de acordo com a sua rotina. Aprenda no seu próprio ritmo, onde quer que esteja.</p>
             <a href="./cadastro.php" class="container__btn secundario__btn">Assine a LínguaViva</a>

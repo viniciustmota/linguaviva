@@ -106,3 +106,15 @@
     align-items: center;
     gap: 8px;
   }
+
+  .idiomas__card {
+    height: 70vh;
+    width: 90%;
+  }
+
+  @media screen and (min-width: 496px) {
+    .idiomas__card{
+        height: 720px;
+        width: 480px;
+    }
+}
